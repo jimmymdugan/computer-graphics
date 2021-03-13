@@ -1,0 +1,113 @@
+Jimmy Dugan
+CSCI 610 Final Project
+
+This project does not have any special features, only a static image is produced.
+
+This project uses 4 object files which are from the RIT CSCI 610 directory found below:
+Cone: https://www.cs.rit.edu/~cscix10/pub/meshes/Cone20.h
+Cube: https://www.cs.rit.edu/~cscix10/pub/meshes/Cube20.h
+Sphere: https://www.cs.rit.edu/~cscix10/pub/meshes/Sphere20.h
+Cylinder: https://www.cs.rit.edu/~cscix10/pub/meshes/Cylinder20.h
+
+Additionally, 2 FREE use images are used for textures which are linked below:
+Barn Wall: https://hipwallpaper.com/view/MGCUqD
+Silo Wall: https://pixabay.com/photos/wall-plant-vines-cement-concrete-613010/
+
+The final image is created with 15 shapes.
+Shapes Overview:
+
+GROUND - created with a cube and uses phong shading
+SILO - created with a cylinder and uses texture shading
+SILO_CAP - created with a sphere and uses phong shading
+ROUND_BARN - created with a cylinder and uses texture shading
+ROUND_BARN_ROOF - created with a cone and uses flat shading
+MINI_BARN - created with a cube and uses flat shading
+MINI_BARN_ROOF - created with a cone and uses flat shading
+SIDE_BARN - created with a cone and uses flat shading
+SIDE_BARN_ROOF - created with a cube and uses phong shading
+BACK_BARN - created with a cube and uses flat shading
+BACK_BARN_ROOF - created with a cone and uses flat shading
+WINDOW_BARN - created with a cube and uses flat shading
+WINDOW_BARN_ROOF - created with a cone and uses flat shading
+ROUND_BARN_WINDOW - created with a cube and uses flat shading
+MINI_BARN_WINDOW - created with a cube and uses flat shading
+
+Files for this project are from previous labs with modification to add additional objects.
+
+Below is an overview of the project files:
+
+Application.cpp
+    - Original structure from Lab5
+    - Added object transforms
+    - Modified display to determine and set lighting/textures and transforms for each object
+Application.h
+    - Added object transforms
+Buffers.cpp
+    - Same as Lab 5
+Buffers.h
+    - Same as Lab 5
+Canvas.cpp
+    - Same as Lab 5
+Canvas.h
+    - Same as Lab 5
+Cone.cpp
+    - Based on shape implementation from Lab5
+Cone.h
+    - Based on shape implementation from Lab5
+Cone20.h
+    - From CSCI 610 DIR
+Cube.cpp
+    - Based on shape implementation from Lab5
+Cube.h
+    - Based on shape implementation from Lab5
+Cube20.h
+    - From CSCI 610 DIR
+Cylinder.cpp
+    - Based on shape implementation from Lab5
+Cylinder.h
+    - Based on shape implementation from Lab5
+Cylinder20.h
+    - From CSCI 610 DIR
+Lighting.cpp
+    - Based on shape implementation from Lab5
+    - Added additional ambient and diffuse colors
+    - Assign ambient and diffuse colors for each non texture object
+Lighting.h
+    - Same as Lab 5
+main.cpp
+    - Same as Lab 5
+ShaderSetup.cpp
+    - Same as Lab 5
+ShaderSetup.h
+    - Same as Lab 5
+Shapes.h
+    - Added additional shaped for each object (15 total)
+Sphere.cpp
+    - Based on shape implementation from Lab5
+Sphere.h
+    - Based on shape implementation from Lab5
+Sphere20.h
+    - From CSCI 610 DIR
+Textures.cpp
+    - Based on implementation from Lab5
+    - Added spec data
+    - Added texture imports for the barn wall and the silo
+textures.h
+    - Same as Lab 5
+Utils.cpp
+    - Same as Lab 5
+Utils.h
+    - Same as Lab 5
+Vector.cpp
+    - Same as Lab 5
+Vector.h
+    - Same as Lab 5
+Viewing.cpp
+    - Original structure from Lab5
+    - Changed eye values
+Viewing.h
+    - Same as Lab 5
+Types.h
+    - Same as Lab 5
+SOURCES.txt
+    - Created for this final project
